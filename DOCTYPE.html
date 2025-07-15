@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriScan - AI-Powered Crop Protection</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: #2e7d32;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        
+        .logo span {
+            color: #ffeb3b;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 3rem;
+        }
+        
+        .hero-content {
+            flex: 1;
+            padding-right: 2rem;
+        }
+        
+        .hero-image {
+            flex: 1;
+            text-align: center;
+        }
+        
+        .hero-image img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #2e7d32;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            margin: 1.5rem 0;
+            color: #1b5e20;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        
+        .feature-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        
+        .feature-card i {
+            font-size: 2.5rem;
+            color: #2e7d32;
+            margin-bottom: 1rem;
+        }
+        
+        .impact-metrics {
+            background-color: #e8f5e9;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 3rem 0;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        
+        .metric {
+            text-align: center;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+        }
+        
+        .metric-value {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #2e7d32;
+        }
+        
+        .cta {
+            text-align: center;
+            margin: 3rem 0;
+            padding: 2rem;
+            background-color: #2e7d32;
+            color: white;
+            border-radius: 8px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: #ffeb3b;
+            color: #2e7d32;
+            padding: 0.8rem 1.5rem;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        footer {
+            background-color: #1b5e20;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><span>Agri</span>Scan</div>
+    </header>
+    
+    <div class="container">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>AI-Powered Crop Protection for Farmers</h1>
+                <p>Revolutionizing agriculture with real-time disease detection and prevention strategies to safeguard crops and livelihoods.</p>
+                <a href="#demo" class="btn">See How It Works</a>
+            </div>
+            <div class="hero-image">
+                <img src="farmers-using-app.jpg" alt="Farmers using AgriScan app">
+            </div>
+        </section>
+        
+        <section class="problem">
+            <h2>The Problem: Late Disease Detection</h2>
+            <p>Farmers like Ramesh lose up to 40% of their crops annually due to late detection of diseases like blight, wilt, and root rot. Traditional methods are slow and often ineffective.</p>
+        </section>
+        
+        <section class="features">
+            <div class="feature-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Instant Diagnosis</h3>
+                <p>Scan diseased leaves with your smartphone for immediate AI-powered disease identification.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-seedling"></i>
+                <h3>Treatment Guidance</h3>
+                <p>Get tailored treatment recommendations including organic and chemical options.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-sms"></i>
+                <h3>IoT Alerts</h3>
+                <p>Receive SMS alerts about soil conditions and early disease warnings from field sensors.</p>
+            </div>
+        </section>
+        
+        <section class="impact-metrics">
+            <h2>Our Impact</h2>
+            <div class="metrics-grid">
+                <div class="metric">
+                    <div class="metric-value">50,000+</div>
+                    <p>Farmers Targeted</p>
+                </div>
+                <div class="metric">
+                    <div class="metric-value">30%</div>
+                    <p>Reduction in Crop Losses</p>
+                </div>
+                <div class="metric">
+                    <div class="metric-value">15+</div>
+                    <p>Diseases Detected</p>
+                </div>
+                <div class="metric">
+                    <div class="metric-value">24/7</div>
+                    <p>Support Available</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="demo" class="demo">
+            <h2>How AgriScan Works</h2>
+            <p>Our solution combines mobile technology with AI to provide farmers with real-time crop protection:</p>
+            <ol>
+                <li>Scan affected plant parts using the AgriScan app</li>
+                <li>AI analyzes the image and identifies the disease</li>
+                <li>Receive immediate treatment recommendations</li>
+                <li>Get preventive measures for future protection</li>
+            </ol>
+        </section>
+        
+        <section class="cta">
+            <h2>Join the Agricultural Revolution</h2>
+            <p>Empower farmers with technology that makes a real difference.</p>
+            <a href="#" class="btn">Get AgriScan Now</a>
+        </section>
+    </div>
+   <footer>
+        <p>&copy; 2024 AgriScan. All rights reserved.</p>
+        <p>Helping farmers protect their crops with AI technology.</p>
+    </footer>
+</body>
+</html>
